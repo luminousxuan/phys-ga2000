@@ -8,4 +8,5 @@ y = np.multiply(np.power(np.sqrt(2*np.pi)*sigma,-1),np.exp(-np.power(x-mean,2)/2
 
 plt.plot(x, y,linewidth=1)
 plt.title('Gaussian Distribution')
+plt.savefig('Gaussian.png')
 plt.show()
