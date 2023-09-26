@@ -26,7 +26,7 @@ plt.xlabel('Time,s')
 plt.ylabel('Number of Atoms')
 plt.title('Decay to Tl208')
 plt.savefig('DecaytoTl208_p4')
-plt.show
+plt.show()
 
 
 # In[ ]:
