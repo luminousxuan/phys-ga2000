@@ -17,9 +17,9 @@ tau = 3.053*60
 t_decay = -1/(np.log(2)/tau)*np.log(1-np.random.random(N))
 t_decay = np.sort(t_decay)
 decayed = np.arange(1,N+1)
-surrived = -decayed + N
+survived = -decayed + N
 
-plt.plot(t_decay,surrived,label='survived atom')
+plt.plot(t_decay,survived,label='survived atom')
 plt.plot(t_decay,decayed,label='decayed atom')
 plt.legend()
 plt.xlabel('Time,s')
